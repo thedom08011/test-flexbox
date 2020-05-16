@@ -1,0 +1,140 @@
+#wrapper {
+    max-width: 1940px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+
+/* header*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 120px;
+}
+
+.title {
+    margin: 8px;
+    color: #0087cc;
+    font-size: 55px;
+}
+
+
+/* end header*/
+
+
+/* menu */
+
+nav {
+    height: 50px;
+    background-color: #0087cc;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    font-size: 30px;
+    margin-right: 150px;
+}
+
+nav li {
+    display: inline-block
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+}
+
+nav li a:hover {
+    color: #ddd;
+}
+
+
+/* end menu */
+
+
+/* section article */
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h3 {
+    height: 1px;
+    color: #929292;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h2 a {
+    color: #0087cc;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #ff7b29;
+}
+
+.article1 {
+    float: left;
+    width: 33%;
+}
+
+.article2 {
+    width: 33%;
+    float: left;
+}
+
+.article3 {
+    float: left;
+    width: 33%;
+}
+
+.image1 {
+    width: 95%;
+}
+
+.titleImage {
+    color: #0087cc;
+    font-size: 20px;
+}
+
+p {
+    color: #555;
+}
+
+p a {
+    color: #0087cc;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #ff7b29;
+}
+
+
+/* end section articlet */
+
+
+/* footer */
+
+.down {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.downText1 {
+    font-size: 23px;
+}
+
+.downText2 {
+    margin-top: -10px;
+}
